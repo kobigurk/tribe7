@@ -1,5 +1,6 @@
 # Tribe 7
 
+The tribe is live on [tribe7.kobigurk.com](tribe7.kobigurk.com)!
 To add yourself:
 
 1. Fork the repository.
