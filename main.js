@@ -47,8 +47,8 @@ function preload() {
 
     game.stage.backgroundColor = '#85b5e1';
 
-//    game.load.baseURL = 'http://tribe7.kobigurk.com/';    
-    game.load.baseURL = 'http://localhost:8080/';    
+    game.load.baseURL = 'http://tribe7.kobigurk.com/';    
+//    game.load.baseURL = 'http://localhost:8080/';    
     game.load.crossOrigin = 'anonymous';
 
     var i;
