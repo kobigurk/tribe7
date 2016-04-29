@@ -1,4 +1,5 @@
 var game = new Phaser.Game(2048, 1024, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
+var t;
 var people = [
     ['2', '2.png'],
     ['3', '3.png'],
@@ -106,6 +107,8 @@ function create() {
     platforms.setAll('body.immovable', true);
 
     game.time.events.loop(Phaser.Timer.SECOND, jumpThem, this);
+    var style = { font: "100px Arial", fill: "#ff0044", align: "center" };
+    t = game.add.text(1250, 100, 'Tribe 7!', style);
 }
 
 function update () {
